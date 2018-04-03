@@ -2,7 +2,7 @@ package svimag6;
 import java.util.ArrayList;
 
 /**
- * Huvudclassen som innehåller alla klasser, Customer och SavingsAccount. 
+ * Huvudclassen som innehåller alla klasser, Customer och Accountyper. 
  * @author Svitri Magnusson, svimag-6
  */
 
