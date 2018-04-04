@@ -5,7 +5,7 @@ package svimag6;
  * @author Svitri Magnusson, svimag-6
  */
 
-public class SavingsAccount {
+public class SavingsAccount extends Account {
 
   private double balance = 0.0;
   private double interestRate = 1.0;
