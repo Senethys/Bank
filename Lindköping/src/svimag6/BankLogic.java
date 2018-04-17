@@ -1,6 +1,8 @@
 package svimag6;
 
 import java.util.ArrayList;
+import java.util.Observable;
+
 
 /**
  * Huvudclassen som innehåller alla klasser, Customer och Accountyper.
@@ -8,7 +10,7 @@ import java.util.ArrayList;
  * @author Svitri Magnusson, svimag-6
  */
 
-public class BankLogic {
+public class BankLogic extends Observable {
 
   private ArrayList<Customer> CustomerList = new ArrayList<Customer>();
 
@@ -87,6 +89,8 @@ public class BankLogic {
       CustomerList.add(NewCustomer);
       result = true;
     }
+    setChanged();
+    notifyObservers();
     return result;
   }
 
