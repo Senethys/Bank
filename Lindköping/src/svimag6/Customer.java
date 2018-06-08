@@ -1,4 +1,5 @@
 package svimag6;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 
@@ -10,11 +11,11 @@ import java.util.ArrayList;
 
 public class Customer implements Serializable {
 
-  private static final long serialVersionUID = 1L;
+  private static final long  serialVersionUID = 11L;
   private String             name;
   private String             lastname;
   private String             ssn;
-  private ArrayList<Account> Accounts = new ArrayList<Account>();
+  private ArrayList<Account> Accounts         = new ArrayList<Account>();
 
   // En kund måste allitd konstrueras med namn, efternamn och personnummer.
   public Customer(String fname, String lname, String sNumber) {

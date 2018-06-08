@@ -1,6 +1,7 @@
 package svimag6;
+
 /**
- * Startar programmet. 
+ * Startar programmet.
  * 
  * @author Svitri Magnusson, svimag-6
  */
